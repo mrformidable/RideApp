@@ -8,11 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		4496494120E3F58000D06C10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496494020E3F58000D06C10 /* AppDelegate.swift */; };
-		4496494320E3F58000D06C10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496494220E3F58000D06C10 /* ViewController.swift */; };
 		4496494620E3F58000D06C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4496494420E3F58000D06C10 /* Main.storyboard */; };
 		4496494820E3F58000D06C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4496494720E3F58000D06C10 /* Assets.xcassets */; };
 		4496494B20E3F58000D06C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4496494920E3F58000D06C10 /* LaunchScreen.storyboard */; };
 		4496495620E3F58000D06C10 /* RideAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496495520E3F58000D06C10 /* RideAppTests.swift */; };
+		4496496220E3F67600D06C10 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496496020E3F67600D06C10 /* MapViewController.swift */; };
+		4496496320E3F67600D06C10 /* MapViewController+Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496496120E3F67600D06C10 /* MapViewController+Delegates.swift */; };
+		4496496720E3F68500D06C10 /* RideListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4496496520E3F68500D06C10 /* RideListViewController.m */; };
+		4496496A20E3F69000D06C10 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496496820E3F69000D06C10 /* Bindable.swift */; };
+		4496496B20E3F69000D06C10 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496496920E3F69000D06C10 /* Currency.swift */; };
+		4496496E20E3F69A00D06C10 /* LocationSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496496C20E3F69A00D06C10 /* LocationSelectionViewModel.swift */; };
+		4496496F20E3F69A00D06C10 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496496D20E3F69A00D06C10 /* MapViewModel.swift */; };
+		4496497420E3F6AC00D06C10 /* RideConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496497020E3F6AC00D06C10 /* RideConfirmationView.swift */; };
+		4496497520E3F6AC00D06C10 /* RideListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4496497220E3F6AC00D06C10 /* RideListCell.m */; };
+		4496497620E3F6AC00D06C10 /* LocationSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496497320E3F6AC00D06C10 /* LocationSelectionView.swift */; };
+		4496497D20E3F6C000D06C10 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496497820E3F6BF00D06C10 /* NetworkService.swift */; };
+		4496497E20E3F6C000D06C10 /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496497920E3F6BF00D06C10 /* APIEndPoints.swift */; };
+		4496497F20E3F6C000D06C10 /* JSONDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4496497B20E3F6C000D06C10 /* JSONDownloader.m */; };
+		4496498020E3F6C000D06C10 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496497C20E3F6C000D06C10 /* Result.swift */; };
+		4496498720E3F6D900D06C10 /* FairCostManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496498220E3F6D800D06C10 /* FairCostManager.swift */; };
+		4496498820E3F6D900D06C10 /* MapMarkerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496498320E3F6D800D06C10 /* MapMarkerManager.swift */; };
+		4496498920E3F6D900D06C10 /* RideRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496498420E3F6D800D06C10 /* RideRequestManager.swift */; };
+		4496498A20E3F6D900D06C10 /* RoutePathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496498520E3F6D800D06C10 /* RoutePathManager.swift */; };
+		4496498B20E3F6D900D06C10 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496498620E3F6D800D06C10 /* LocationManager.swift */; };
+		4496499020E3F6F100D06C10 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496498D20E3F6F100D06C10 /* Extensions.swift */; };
+		4496499120E3F6F100D06C10 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496498E20E3F6F100D06C10 /* Resources.swift */; };
+		4496499220E3F6F100D06C10 /* mapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 4496498F20E3F6F100D06C10 /* mapStyle.json */; };
+		4496499820E3F71900D06C10 /* RideModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4496499520E3F71900D06C10 /* RideModel.m */; };
+		4496499920E3F71900D06C10 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496499620E3F71900D06C10 /* Ride.swift */; };
+		517C46DA582C8E504777EB02 /* Pods_RideApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE7D38460D8FA889B778470 /* Pods_RideApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35E9CAEF735A6EF95CF9A968 /* Pods-RideApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideApp/Pods-RideApp.release.xcconfig"; sourceTree = "<group>"; };
 		4496493D20E3F58000D06C10 /* RideApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4496494020E3F58000D06C10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4496494220E3F58000D06C10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4496494520E3F58000D06C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4496494720E3F58000D06C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4496494A20E3F58000D06C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +60,37 @@
 		4496495120E3F58000D06C10 /* RideAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4496495520E3F58000D06C10 /* RideAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideAppTests.swift; sourceTree = "<group>"; };
 		4496495720E3F58000D06C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4496496020E3F67600D06C10 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4496496120E3F67600D06C10 /* MapViewController+Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapViewController+Delegates.swift"; sourceTree = "<group>"; };
+		4496496420E3F68400D06C10 /* RideApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RideApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		4496496520E3F68500D06C10 /* RideListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RideListViewController.m; sourceTree = "<group>"; };
+		4496496620E3F68500D06C10 /* RideListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RideListViewController.h; sourceTree = "<group>"; };
+		4496496820E3F69000D06C10 /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		4496496920E3F69000D06C10 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		4496496C20E3F69A00D06C10 /* LocationSelectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSelectionViewModel.swift; sourceTree = "<group>"; };
+		4496496D20E3F69A00D06C10 /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		4496497020E3F6AC00D06C10 /* RideConfirmationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideConfirmationView.swift; sourceTree = "<group>"; };
+		4496497120E3F6AC00D06C10 /* RideListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RideListCell.h; sourceTree = "<group>"; };
+		4496497220E3F6AC00D06C10 /* RideListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RideListCell.m; sourceTree = "<group>"; };
+		4496497320E3F6AC00D06C10 /* LocationSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSelectionView.swift; sourceTree = "<group>"; };
+		4496497820E3F6BF00D06C10 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		4496497920E3F6BF00D06C10 /* APIEndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndPoints.swift; sourceTree = "<group>"; };
+		4496497A20E3F6C000D06C10 /* JSONDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDownloader.h; sourceTree = "<group>"; };
+		4496497B20E3F6C000D06C10 /* JSONDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONDownloader.m; sourceTree = "<group>"; };
+		4496497C20E3F6C000D06C10 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		4496498220E3F6D800D06C10 /* FairCostManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FairCostManager.swift; sourceTree = "<group>"; };
+		4496498320E3F6D800D06C10 /* MapMarkerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapMarkerManager.swift; sourceTree = "<group>"; };
+		4496498420E3F6D800D06C10 /* RideRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideRequestManager.swift; sourceTree = "<group>"; };
+		4496498520E3F6D800D06C10 /* RoutePathManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutePathManager.swift; sourceTree = "<group>"; };
+		4496498620E3F6D800D06C10 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		4496498D20E3F6F100D06C10 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4496498E20E3F6F100D06C10 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		4496498F20E3F6F100D06C10 /* mapStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mapStyle.json; sourceTree = "<group>"; };
+		4496499520E3F71900D06C10 /* RideModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RideModel.m; sourceTree = "<group>"; };
+		4496499620E3F71900D06C10 /* Ride.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		4496499720E3F71900D06C10 /* RideModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RideModel.h; sourceTree = "<group>"; };
+		C2F687D182273BF1ED2240CF /* Pods-RideApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RideApp/Pods-RideApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CFE7D38460D8FA889B778470 /* Pods_RideApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RideApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517C46DA582C8E504777EB02 /* Pods_RideApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +112,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046074A8FD1FC988B2D9FA66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2F687D182273BF1ED2240CF /* Pods-RideApp.debug.xcconfig */,
+				35E9CAEF735A6EF95CF9A968 /* Pods-RideApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F45240E8B4CBE06EDE36184 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFE7D38460D8FA889B778470 /* Pods_RideApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4496493420E3F58000D06C10 = {
 			isa = PBXGroup;
 			children = (
 				4496493F20E3F58000D06C10 /* RideApp */,
 				4496495420E3F58000D06C10 /* RideAppTests */,
 				4496493E20E3F58000D06C10 /* Products */,
+				046074A8FD1FC988B2D9FA66 /* Pods */,
+				2F45240E8B4CBE06EDE36184 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +153,22 @@
 			isa = PBXGroup;
 			children = (
 				4496494020E3F58000D06C10 /* AppDelegate.swift */,
-				4496494220E3F58000D06C10 /* ViewController.swift */,
+				4496499A20E3F71D00D06C10 /* Models */,
+				4496496820E3F69000D06C10 /* Bindable.swift */,
+				4496496920E3F69000D06C10 /* Currency.swift */,
+				4496499C20E3F74200D06C10 /* ViewModels */,
+				4496499B20E3F73700D06C10 /* Controllers */,
+				4496498C20E3F6DE00D06C10 /* RideEngine */,
+				4496498120E3F6C500D06C10 /* Networking */,
+				4496497720E3F6B300D06C10 /* Views */,
 				4496494420E3F58000D06C10 /* Main.storyboard */,
+				4496498D20E3F6F100D06C10 /* Extensions.swift */,
+				4496498F20E3F6F100D06C10 /* mapStyle.json */,
+				4496498E20E3F6F100D06C10 /* Resources.swift */,
 				4496494720E3F58000D06C10 /* Assets.xcassets */,
 				4496494920E3F58000D06C10 /* LaunchScreen.storyboard */,
 				4496494C20E3F58000D06C10 /* Info.plist */,
+				4496496420E3F68400D06C10 /* RideApp-Bridging-Header.h */,
 			);
 			path = RideApp;
 			sourceTree = "<group>";
@@ -96,6 +182,71 @@
 			path = RideAppTests;
 			sourceTree = "<group>";
 		};
+		4496497720E3F6B300D06C10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4496497320E3F6AC00D06C10 /* LocationSelectionView.swift */,
+				4496497020E3F6AC00D06C10 /* RideConfirmationView.swift */,
+				4496497120E3F6AC00D06C10 /* RideListCell.h */,
+				4496497220E3F6AC00D06C10 /* RideListCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4496498120E3F6C500D06C10 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4496497920E3F6BF00D06C10 /* APIEndPoints.swift */,
+				4496497A20E3F6C000D06C10 /* JSONDownloader.h */,
+				4496497B20E3F6C000D06C10 /* JSONDownloader.m */,
+				4496497820E3F6BF00D06C10 /* NetworkService.swift */,
+				4496497C20E3F6C000D06C10 /* Result.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4496498C20E3F6DE00D06C10 /* RideEngine */ = {
+			isa = PBXGroup;
+			children = (
+				4496498220E3F6D800D06C10 /* FairCostManager.swift */,
+				4496498620E3F6D800D06C10 /* LocationManager.swift */,
+				4496498320E3F6D800D06C10 /* MapMarkerManager.swift */,
+				4496498420E3F6D800D06C10 /* RideRequestManager.swift */,
+				4496498520E3F6D800D06C10 /* RoutePathManager.swift */,
+			);
+			path = RideEngine;
+			sourceTree = "<group>";
+		};
+		4496499A20E3F71D00D06C10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4496499620E3F71900D06C10 /* Ride.swift */,
+				4496499720E3F71900D06C10 /* RideModel.h */,
+				4496499520E3F71900D06C10 /* RideModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4496499B20E3F73700D06C10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4496496620E3F68500D06C10 /* RideListViewController.h */,
+				4496496520E3F68500D06C10 /* RideListViewController.m */,
+				4496496020E3F67600D06C10 /* MapViewController.swift */,
+				4496496120E3F67600D06C10 /* MapViewController+Delegates.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4496499C20E3F74200D06C10 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4496496C20E3F69A00D06C10 /* LocationSelectionViewModel.swift */,
+				4496496D20E3F69A00D06C10 /* MapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4496495A20E3F58000D06C10 /* Build configuration list for PBXNativeTarget "RideApp" */;
 			buildPhases = (
+				27C3E07B6926EE90130DFAEC /* [CP] Check Pods Manifest.lock */,
 				4496493920E3F58000D06C10 /* Sources */,
 				4496493A20E3F58000D06C10 /* Frameworks */,
 				4496493B20E3F58000D06C10 /* Resources */,
+				5577A871CDEC26104E6D38AE /* [CP] Embed Pods Frameworks */,
+				34457F00EAE4730EB2BC85B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +300,7 @@
 				TargetAttributes = {
 					4496493C20E3F58000D06C10 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					4496495020E3F58000D06C10 = {
@@ -179,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4496499220E3F6F100D06C10 /* mapStyle.json in Resources */,
 				4496494B20E3F58000D06C10 /* LaunchScreen.storyboard in Resources */,
 				4496494820E3F58000D06C10 /* Assets.xcassets in Resources */,
 				4496494620E3F58000D06C10 /* Main.storyboard in Resources */,
@@ -194,13 +350,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27C3E07B6926EE90130DFAEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RideApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34457F00EAE4730EB2BC85B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RideApp/Pods-RideApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RideApp/Pods-RideApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5577A871CDEC26104E6D38AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RideApp/Pods-RideApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RideApp/Pods-RideApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4496493920E3F58000D06C10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4496494320E3F58000D06C10 /* ViewController.swift in Sources */,
+				4496496220E3F67600D06C10 /* MapViewController.swift in Sources */,
+				4496496A20E3F69000D06C10 /* Bindable.swift in Sources */,
+				4496497F20E3F6C000D06C10 /* JSONDownloader.m in Sources */,
+				4496496720E3F68500D06C10 /* RideListViewController.m in Sources */,
+				4496499820E3F71900D06C10 /* RideModel.m in Sources */,
+				4496497520E3F6AC00D06C10 /* RideListCell.m in Sources */,
+				4496498A20E3F6D900D06C10 /* RoutePathManager.swift in Sources */,
+				4496497E20E3F6C000D06C10 /* APIEndPoints.swift in Sources */,
+				4496498720E3F6D900D06C10 /* FairCostManager.swift in Sources */,
+				4496498020E3F6C000D06C10 /* Result.swift in Sources */,
+				4496497420E3F6AC00D06C10 /* RideConfirmationView.swift in Sources */,
+				4496497620E3F6AC00D06C10 /* LocationSelectionView.swift in Sources */,
+				4496496E20E3F69A00D06C10 /* LocationSelectionViewModel.swift in Sources */,
+				4496498B20E3F6D900D06C10 /* LocationManager.swift in Sources */,
+				4496499020E3F6F100D06C10 /* Extensions.swift in Sources */,
+				4496498920E3F6D900D06C10 /* RideRequestManager.swift in Sources */,
+				4496496320E3F67600D06C10 /* MapViewController+Delegates.swift in Sources */,
+				4496499920E3F71900D06C10 /* Ride.swift in Sources */,
+				4496496B20E3F69000D06C10 /* Currency.swift in Sources */,
 				4496494120E3F58000D06C10 /* AppDelegate.swift in Sources */,
+				4496497D20E3F6C000D06C10 /* NetworkService.swift in Sources */,
+				4496499120E3F6F100D06C10 /* Resources.swift in Sources */,
+				4496496F20E3F69A00D06C10 /* MapViewModel.swift in Sources */,
+				4496498820E3F6D900D06C10 /* MapMarkerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,14 +586,18 @@
 		};
 		4496495B20E3F58000D06C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F687D182273BF1ED2240CF /* Pods-RideApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38DEJUL48H;
 				INFOPLIST_FILE = RideApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.creativemic.RideApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RideApp/RideApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,14 +605,17 @@
 		};
 		4496495C20E3F58000D06C10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E9CAEF735A6EF95CF9A968 /* Pods-RideApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38DEJUL48H;
 				INFOPLIST_FILE = RideApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.creativemic.RideApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RideApp/RideApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
