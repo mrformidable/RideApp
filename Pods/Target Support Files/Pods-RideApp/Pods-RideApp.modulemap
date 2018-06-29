@@ -1,0 +1,6 @@
+framework module Pods_RideApp {
+  umbrella header "Pods-RideApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
